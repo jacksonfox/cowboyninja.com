@@ -1,0 +1,100 @@
+
+/* Reset Styles 
+ ------------------------------------------------------------ */
+
+body, html, img, form, fieldset, input, textarea, p, h1, h2, h3, h4, h5, h6, ol, ul, li, div {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 100%;
+  outline: none;
+  border: none;
+}
+* { text-rendering: optimizeLegibility; }
+header, section, article, footer, aside, nav { display: block; }
+
+/* Base Styles 
+ ------------------------------------------------------------ */
+
+body {
+  font-family: monospace;
+  font-size: 13px;
+  line-height: 18px;  
+  color: #333333;
+  background: #ffffff;
+}
+h1, h2, h3, h4 {
+  font-family: monospace;
+  margin: 1em 0px;    
+  color: #000000;
+}
+h1 { font-size: 24px; line-height: 32px; }
+h2, h3 { font-size: 24px; line-height: 32px; }
+h4 { font-size: 18px; }
+p {
+  margin-bottom: 10px;
+}
+a {
+  color: #003366;
+  text-decoration: none;
+  border-bottom: 1px dotted #99ccee;
+}
+a:hover { background-color: #ddeeff; }       
+
+/* Layout 
+ ------------------------------------------------------------ */
+
+#wrapper {
+  margin: 0 auto;
+  padding: 40px;
+  width: 640px;
+}               
+nav, footer { margin: 1em 0; }
+footer {
+  clear: both;
+  padding-top: 2em;
+}                             
+
+/* Header 
+ ------------------------------------------------------------ */
+
+header {
+  padding: 10px 0px;   
+  margin: 10px 0px;
+}
+header h1 {
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+}
+header h1 a {
+  text-decoration: none;
+  border: none;
+  color: #555555;
+  background-color: #ffffff;
+}
+header p.tagline { 
+  font-size: 18px;
+  line-height: 24px;
+  color: #aaaaaa;        
+  margin-bottom: 0px;
+}      
+
+.dtime {
+  margin: 1em 0px;
+  color: #aaa;
+}
+
+.post #about {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid #111;
+}
+
+/* Sections
+ ------------------------------------------------------------ */
+
+.slide li {
+  list-style-type: none;
+}

@@ -1,0 +1,12 @@
+---
+layout: default
+title: "CowboyNinja.com"
+---       
+<section>
+  <p>Here's what I've written about recently...</p>
+  <ul class="articles">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}       
+  </ul>
+</section>
