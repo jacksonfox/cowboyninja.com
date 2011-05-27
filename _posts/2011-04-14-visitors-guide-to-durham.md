@@ -2,6 +2,8 @@
 layout: post
 title: A Visitor's Guide to Durham
 ---
+<img src="/images/bull.jpeg">
+
 Erica and I spent 8 years in Durham, arriving just after college and leaving after Erica had finished her PhD at Duke. In that time we fell in love with Durham (and North Carolina). I'd like to share some of things we loved about Durham, in case you ever find yourself there (and I hope you do).
 
 ## Southern Durham
