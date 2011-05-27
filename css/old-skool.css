@@ -102,5 +102,10 @@ header p {
 
 #body img {
   max-width: 640px;
-  margin-bottom: 18px;
+}
+
+.caption, .caption a {
+  color: #aaa;
+  text-align: right;
+  border: none;
 }
