@@ -44,6 +44,7 @@ Just past Ninth St., sitting next to Duke's east campus, is  Broad St.
 * Amazing farm-to-table fare at Watt's Grocery.
 
 ## Downtown
+
 * Get a sandwich at Toast
 * A pastry from Scratch Bakery
 * Coffee from Beyu
@@ -55,6 +56,11 @@ Just past Ninth St., sitting next to Duke's east campus, is  Broad St.
 * Hang out at Fullsteam til late
 
 ## Other Spots
+
+* Go for a hike at Umstead State Park
+* Walk through the Sarah P. Duke gardens
+* Check out the campus of UNC, stop by the Old Well, then cruise down Franklin St.
+* Go to the beach! Wilmington for the day, or the Outer Banks for a longer stay.
 * Grab some super-juicy peruvian chicken at Mami Nora's, or head around the corner to any one of several authentic taquerias along Roxboro.
 * In the spring, you can check out the live music and crafts at the Eno River Festival. Any other time of the year you the parks along the Eno provide great spots for picnics, hiking, or playing in the water. Make sure to find someone to give you directions to the quarry.
 * Ice cream at Mapleview Farm
