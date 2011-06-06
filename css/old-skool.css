@@ -31,8 +31,8 @@ h2, h3, h4 {
 h1 { font-size: 36px; line-height: 54px; font-family: "Permanent Marker"; }
 h2, h3 { font-size: 24px; line-height: 32px; }
 h4 { font-size: 18px; }
-p {
-  margin-bottom: 10px;
+p, ul, ol {
+  margin: 0px 0px 10px 0px;
 }
 a {
   color: #003366;
@@ -79,22 +79,18 @@ header p {
   margin-bottom: 0px;
 }      
 
-.dtime {
-  margin: 1em 0px;
-  color: #aaa;
-}
-
-.post #about {
-  margin-top: 2em;
-  padding-top: 2em;
-  border-top: 1px solid #111;
-}
-
 /* Sections
  ------------------------------------------------------------ */
 
 .slide li {
   list-style-type: none;
+}
+
+/* Homepage
+ ------------------------------------------------------------ */
+
+.article-date {
+  color: #aaa;
 }
 
 /* Posts & pages
@@ -108,4 +104,18 @@ header p {
   color: #aaa;
   text-align: right;
   border: none;
+}
+
+.dtime {
+  margin: 1em 0px;
+  color: #aaa;
+}
+
+/* Footer
+ ------------------------------------------------------------ */
+
+.post #about {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid #111;
 }
