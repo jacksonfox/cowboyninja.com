@@ -1,0 +1,121 @@
+
+/* Reset Styles 
+ ------------------------------------------------------------ */
+
+ body, html, img, form, fieldset, input, textarea, p, h1, h2, h3, h4, h5, h6, ol, ul, li, div {
+   margin: 0;
+   padding: 0;
+   font-weight: normal;
+   font-size: 100%;
+   outline: none;
+   border: none;
+ }
+ article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+ audio:not([controls]) { display: none; }
+ [hidden] { display: none; }
+
+/* Base Styles 
+ ------------------------------------------------------------ */
+
+html { 
+  font-size: 100%; 
+  overflow-y: scroll; 
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%; 
+}
+body {
+  font-family: menlo, monospace;
+  font-size: 11px;
+  line-height: 18px;  
+  color: #333333;
+  background: #ffffff;
+}
+h2, h3, h4 {
+  font-family: menlo, monospace;
+  margin: 1em 0px;    
+  color: #000000;
+}
+h1 { font-size: 36px; line-height: 36px; font-family: "Permanent Marker"; margin: .5em 0; }
+h2, h3 { font-size: 24px; line-height: 32px; }
+h4 { font-size: 18px; }
+p, ul, ol {
+  margin: 0px 0px 10px 0px;
+}
+a {
+  color: #003366;
+  text-decoration: none;
+  border-bottom: 1px dotted #99ccee;
+  &:hover { background-color: #ddeeff; }       
+}
+
+/* Layout 
+ ------------------------------------------------------------ */
+
+#wrapper {
+  margin: 0 auto;
+  padding: 40px;
+  width: 640px;
+}               
+nav, footer { margin: 1em 0; }
+footer {
+  clear: both;
+  padding-top: 2em;
+}                             
+
+/* Header 
+ ------------------------------------------------------------ */
+
+header {
+  padding: 10px 0px;   
+  margin: 10px 0px;
+  h1 {
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    a {
+      text-decoration: none;
+      border: none;
+      color: #000;
+      background-color: #ffffff;
+    }
+  }
+  p { 
+    color: #aaaaaa;        
+    margin-bottom: 0px;
+  }      
+}
+
+/* Homepage
+ ------------------------------------------------------------ */
+
+.article-date {
+  color: #aaa;
+}
+
+/* Posts & pages
+ ------------------------------------------------------------ */
+
+#body img {
+  max-width: 640px;
+}
+
+.caption, .caption a {
+  color: #aaa;
+  text-align: right;
+  border: none;
+}
+
+.dtime {
+  margin: 1em 0px;
+  color: #aaa;
+}
+
+/* Footer
+ ------------------------------------------------------------ */
+
+#about {
+  margin-top: 2em;
+  padding-top: 2em;
+  border-top: 1px solid #333;
+}
